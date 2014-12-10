@@ -1,0 +1,59 @@
+/**
+ * cnw's personal theme
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+@font-face {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ABeeZee'), local('ABeeZee-Regular'), url(../font/abeezee.woff), url(../font/abeezee.woff) format('woff');
+}
+
+$mainFont: ABeeZee, sans-serif;
+$mainColor: #292627;
+
+$headingFont: ABeeZee, sans-serif;
+$headingColor: $mainColor;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$heading1TextShadow: none;
+
+$backgroundColor: lighten($mainColor, 80%);
+
+$linkColor: #520;
+$linkColorHover: lighten($linkColor, 10%);
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+.reveal code, .reveal .src {
+    font-family: Menlo, monospace;
+}
+
+.reveal .src {
+    font-size: .8em;
+    box-shadow: none !important;
+}
+
+.reveal pre {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.reveal section img {
+    margin: 15px 0px;
+    background: rgba(255,255,255,0.12);
+
+    border: none !important;
+    box-shadow: none !important;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

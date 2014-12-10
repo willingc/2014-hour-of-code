@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hour of Code</title>
+
+<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+<meta name="author" content="Carol Willing, Fab Lab San Diego">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="css/reveal.min.css">
+<link rel="stylesheet" href="css/theme/cnw.css" id="theme">
+<link rel="stylesheet" href="lib/css/zenburn.css">
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section >
+<h1>Hour of Code</h1>
+<p></p>
+<h3>New Central Library</h3>
+<h4>and</h4>
+<h3><a href="http://www.fablabsd.org/">Fab Lab San Diego</a></h3>
+<img src="images/FabLab_Primary_V4_270_76.png" alt="FabLab.png" style="width:40%" />
+</section>
+
+<section>
+<h2>Exploring</h2>
+<h4>with</h4>
+<h2>Processing</h2>
+<img src="images/hour-of-code-logo.png" alt="hour-of-code-logo.png" style="width:25%" />
+<h4><i>December 8-14, 2014</i></h4>
+<aside class="notes">Remember to stress Exploring</aside>
+</section>
+
+<section id="sec-2">
+<h2>Introduction</h2>
+</section>
+
+<section id="sec-2-1">
+<h2>Who am I?</h2>
+<ul class="org-ul">
+<li>Developer</li>
+<li>Learner</li>
+<li>Geek in Residence</li>
+<li>Guitar player</li>
+</ul>
+</section>
+
+<section id="sec-2-2">
+<h2>Who am I?</h2>
+<img src="images/belle.gif" alt="belle.gif" style="width:50%" />
+</section>
+
+<section id="sec-2-3">
+<h2>Who are you?</h2>
+<ul class="org-ul">
+<li>In this class</li>
+<li>Outside of this class</li>
+</ul>
+<p><br>
+<a href="http://androidify.com">
+<code>http://androidify.com</code></a>
+</p>
+</section>
+
+<section id="sec-2-4">
+<h2>Game plan</h2>
+<p>
+<i>Lots</i> of cool content
+</p>
+<ul class="org-ul">
+<li>Play it by ear
+</li>
+<li>Questions rock
+</li>
+<li>Explore
+</li>
+</ul>
+</section>
+
+<section id="sec-2-5" >
+<h2>Rules of the</h2>
+<h2>cyber-code road</h2>
+<ul class="org-ul">
+<li>Banish the <i>icant</i> bus
+</li>
+<li>Be a <i>golden</i> developer
+</li>
+<li>Beware of backseat keyboard drivers
+</li>
+<li>Share the journey
+</li>
+</ul>
+</section>
+
+<section id="sec-3" >
+<h2>Hello Processing</h2>
+</section>
+<section id="sec-3-1" >
+<h2>Hello Processing</h2>
+<h3>Interactive tutorial</h3>
+<p>
+<a href="http://hello.processing.org/">
+<code>http://hello.processing.org/</code></a>
+</p>
+</section>
+
+<section id="sec-3-2">
+<h3>Hello Processing Gallery</h3>
+<p><br>
+<a href="http://hello.processing.org/gallery/">
+<code>http://hello.processing.org/gallery/</code></a>
+</p>
+<p><br>Let's explore an example</p>
+</section>
+
+<section id="sec-3-3">
+<h3>Reading Processing code</h3>
+<code><pre>
+size(500,400);
+
+void setup() {
+    background(random(255), random(255), random(255));
+    fill(random(255), random(255), random(255));
+}
+
+void draw() {
+    int diameter = random(50);
+    rect(mouseX, mouseY, diameter, diameter);
+}
+</pre></code>
+</section>
+
+<section id="sec-4">
+<h1>Verdi!</h1>
+<p>
+A traditional snake game.</p>
+Move the snake around the screen without crashing</p>
+<p>
+<a href="http://gcodegarden.com/">
+<code>Get the code</code></a>
+<p><pre>
+Based on the snake game example in:
+JavaScript for Kids
+By: Nick Morgan
+Publisher: No Starch Press
+Pub. Date: December 2, 2014
+Print ISBN-13: 978-1-59327-408-5</pre></p>
+</section>
+
+<section id="sec-5">
+<h2>Slides</h2>
+<p>
+<code>http://www.gcodegarden.com/ProcessingIntro/</code>
+</p>
+<p>
+<code>https://www.github.com/willingc/ProcessingIntro</code>
+</p>
+</section>
+
+<section >
+<h2>Cool projects</h2>
+<p><a href="http://code.org/learn">
+<code>http://code.org/learn</code></a></p>
+<p><a href="http://sonic-pi.net/">
+<code>http://sonic-pi.net/</code></a></p>
+<p><a href="https://webmaker.org/en-US">
+<code>https://webmaker.org/en-US</code></a></p>
+<p><a href="https://webmaker.org/en-US/tools">
+<code>https://webmaker.org/en-US/tools</code></a></p>
+<p><a href="https://thimble.webmaker.org/project/60767/remix">
+<code>https://thimble.webmaker.org/project/60767/remix</code></a></p>
+<p><a href="https://webmaker.org/en-US/private-eye">
+<code>https://webmaker.org/en-US/private-eye</code></p>
+<p><a href="http://androidify.com">
+<code>http://androidify.com</code></a></p>
+</section>
+</div>
+</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, 
+				transition: Reveal.getQueryHash().transition || 'default', 
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

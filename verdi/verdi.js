@@ -1,3 +1,9 @@
+// This source code is based on the game example in
+// No Starch Press' Javascript for Kids. I highly
+// recommend this book. This code is merely a teaching 
+// example with minor modifications. All rights belong
+// to the book authors and No Starch Press.
+
 //**************
 //** Game board
 //**************
